@@ -1,4 +1,3 @@
-
 # for i in range(101):
 #     if i==0:
 #         print(i ,"is not even or odd")
@@ -259,3 +258,88 @@
 #     def __init__(self):
 #      print("hello") 
 # init_obj=learning_init()     
+
+# class dog:
+#     def __init__(self,name,age,color,breed):
+#         self.name=name
+#         self.age=age
+#         self.color=color
+#         self.breed=breed
+#     def bark(self):
+#         print("woof woof here are details of dog \nname: {} \nage: {} \ncolor: {} \nbreed: {}".format(self.name,self.age,self.color,self.breed))
+        
+ 
+# letcall=dog("rocky","2.6 years","golden","labrador retriever")
+# letcall.bark()
+
+########## oops ---inheritance
+# class Animal:
+#     name=""
+#     def eat(self):
+#         print("eating")
+
+# class Dog(Animal):
+#     def display(self):
+#         print("{} is eating".format(self.name))
+
+# dog=Dog()
+# dog.name="rocky"
+# dog.eat()
+# dog.display()
+
+# class grandfather:
+#     def grandfather(self):
+#         print("i have house")
+# class father(grandfather):
+#     def father(self):
+#         print("i have car") 
+# class son(father):
+#     def son(self):
+#         print("i have both")            
+# son1=son()
+# son1.father()
+# son1.grandfather()
+# # son1.son()        
+# user_input1=int(input("enter a number1: "))
+# user_input2=int(input("enter a number2: "))
+# print(user_input1+user_input2)
+# user_input3=input("enter a word: ")
+# user_input4=input("enter a word: ")
+# print(user_input3+user_input4)
+# str="hello"
+# print(len(str))
+# list=list(range(1,11))
+# print(len(list))
+# dic={"a":100,"b":200,"c":300}
+# print(len(dic))
+# x=5
+# def add(x):
+#     if x == 1:
+#         return x
+#     else:
+#         return x + add(x - 1)
+# add1=add(x)
+# print(add1)  
+
+# user_input=int(input("enter a number: "))
+# counter=user_input*2
+# counter1=1
+# for i in range(user_input+1):
+#     print("*"*counter1,end="")
+#     print(" "*counter,end="")
+#     print("*"*counter1)
+#     counter1+=1
+#     counter-=2
+####### try except finally
+# a= 10
+# b=2
+# def divide():
+#   print("file opened")
+#   try:
+#       print(a/b)
+#   except Exception:
+#       print("error zero")  
+#   finally:
+#       print("file closed")      
+
+# divide()
